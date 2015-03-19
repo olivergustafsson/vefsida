@@ -5,14 +5,14 @@ include 'include/config.php';
 <html lang="en">
 
 <head>
-	  <meta charset="utf-8"/>
-	  <title><?php echo($all['titill']); ?></title>
-
-	  <link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-	  <link rel="stylesheet" href="css/styles.css" type="text/css">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><?php echo($all['titill']); ?></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -21,10 +21,39 @@ include 'include/config.php';
 </div>
 <div>
 	<header>
-		<!-- <div class="title">
-			<h1>CS:GO</h1>
-			<p>Counter Strike : Global Offensive</p>
-		</div> -->
+		<!-- Navigation start -->
+	<nav class="navbar navbar-custom navbar-fixed-top one-page" role="navigation">
+
+		<div class="container">
+	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand" href="index.php">BMW</a>
+			</div>
+	
+			<div class="collapse navbar-collapse" id="custom-collapse">
+				<ul class="nav navbar-nav navbar-right">
+	
+					<li><a href="#" class="section-scroll">Home</a></li>
+					<li><a href="#" class="section-scroll">About</a></li>
+					<li><a href="#" class="section-scroll">Features</a></li>
+					<li><a href="#" class="section-scroll">Order</a></li>
+
+					
+	
+				</ul>
+			</div>
+	
+		</div>
+
+	</nav>
+	<!-- Navigation end -->
 	</header>
 	<body>
 	
@@ -90,9 +119,12 @@ include 'include/config.php';
 	</body>
 </div>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script> 
 <script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/fun.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 </body>
 </html>
