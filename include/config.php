@@ -40,10 +40,10 @@ function nav(){
 			</div>
 			<div class="collapse navbar-collapse" id="custom-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#" class="section-scroll">Home</a></li>
+					<li><a href="index.php" class="section-scroll">Home</a></li>
 					<li><a href="#" class="section-scroll">About</a></li>
 					<li><a href="#" class="section-scroll">Features</a></li>
-					<li><a href="#" class="section-scroll">Order</a></li>	
+					<li><a href="order.php" class="section-scroll">Order</a></li>	
 				</ul>
 			</div>
 		</div>
