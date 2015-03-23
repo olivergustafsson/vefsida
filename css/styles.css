@@ -37,7 +37,14 @@ h1{
 	margin: 0;
 	padding: 0;
 }
-
+h2
+{
+}
+.col-lg-4
+{
+	padding-left: 80px;
+	padding-right: 80px;
+}
 .title{
 	padding-top: 5em;
 	text-align: center;
@@ -54,11 +61,22 @@ h1{
 		    background-size: cover;
 }
 
-.hringur{
-	background: #fff;
-	width: 150px;
-	height: 150px;
-	border-radius: 90px;
+.hringur
+{
+	color: darkorange;
+}
+.checkfont
+{
+	color: green;
+}
+.flugvel
+{
+	color: darkorange;
+}
+.2row
+{
+	text-align: cent;
+	width: 30px;
 }
 
 
@@ -79,6 +97,10 @@ h1{
 
 .center{
 	text-align: center;
+}
+.margings
+{
+	margin: 0 auto;
 }
 
 #full-page-container

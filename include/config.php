@@ -10,12 +10,13 @@ if($db->connect_errno > 0){
 }
 
 // Breytur
-$all['titill'] = "Lokaverkefni";
+$all['titill'] = "BMW";
 
 function style(){
 	echo'
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+	<link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
@@ -45,7 +46,7 @@ function nav(){
 </a></li>
 					<li><a href="#" class="section-scroll">About</a></li>
 					<li><a href="#" class="section-scroll">Features</a></li>
-					<li><a href="order.php" class="section-scroll">Order</a></li>	
+					<li><a href="order.php" class="section-scroll">Order</a></li>
 				</ul>
 			</div>
 		</div>

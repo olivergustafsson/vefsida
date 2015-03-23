@@ -1,5 +1,5 @@
 <?php 
-include 'include/config.php'; 
+include 'include/config.php';
 ?>
 <!doctype html>
 <html lang="en">
@@ -22,42 +22,29 @@ include 'include/config.php';
 		<div class="container-fluid marketing ">
 			<div class="bil"></div>
 
+			<form action="email.php" method="post"><div style="margin:0;padding:0;display:inline">    
+			<div class="row contact-form mt80">
+       		 <div class="col-md-6">
+       		   <label>First Name: </label>
+       		   <input type="text" name="firstname" class="form-control"/>
+       		   <label>Last Name: </label>
+       		   <input type="text" name="lastname" class="form-control"/>
+       		   <label>Email:</label>
+       		   <input type="email" name="email" class="form-control"/>
+       		 </div>
+       		 <div class="col-md-6">
+       		 	<label>Phone:</label>
+       		   	<input type="phone" name="phone number" class="form-control"/>  
+       		 	<label>Color:</label>
+       		   	<input type="text" name="car color" class="form-control"/>  
+       		   	<label>Type:</label>
+       		   	<input type="text" name="BMW type" class="form-control"/> 
+       		   <div class="bil"></div>
+       		   <input type="submit" value="Submit" class="btn btn-danger btn-lg"/>      
+       		 </div>
 
-
-				<form class="form-horizontal">
-				  <div class="form-group">
-				    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-				    <div class="col-sm-10">
-				   		<div class="input-group">
-						    <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
-						    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-						  </div>
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-				    <div class="col-sm-10">
-				    	<div class="input-group">
-						   	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
-				      		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-				  		</div>
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <div class="col-sm-offset-2 col-sm-10">
-				      <div class="checkbox">
-				        <label>
-				          <input type="checkbox"> Remember me
-				        </label>
-				      </div>
-				    </div>
-				  </div>
-				  <div class="form-group">
-				    <div class="col-sm-offset-2 col-sm-10">
-				      <button type="submit" class="btn btn-default">Sign in</button>
-				    </div>
-				  </div>
-				</form>
+      			</div>
+			</form>
 
 
 			<div class="bil"></div>
