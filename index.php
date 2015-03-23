@@ -19,7 +19,7 @@ include 'include/config.php';
 	</header>
 	<body>
 	
-		<div class="container marketing ">
+		<div class="container-fluid marketing ">
 		<div class="bil"></div>
 		<!-- Lína á milli div'a -->
 <!-- 		<hr class="featurette-divider">
@@ -29,7 +29,7 @@ include 'include/config.php';
     	
 	      <div class="row center">
 	        <div class="col-lg-4">
-	          <img class="img-circle center" src="https://scontent-lhr.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1526624_10152142696322904_1716991672_n.jpg?oh=e96f8e11d462829f29d7663cdd4993ba&oe=557006DC" width="140" height="140">
+	          <div class="hringur center"><i class="fa fa-car fa-5x"></i></div>
 	          <h2>Heading</h2>
 	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	      						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

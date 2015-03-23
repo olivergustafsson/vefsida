@@ -15,13 +15,14 @@ $all['titill'] = "Lokaverkefni";
 function style(){
 	echo'
 	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
 	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<link rel="stylesheet" href="css/screen.css" type="text/css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 	';
 }
 
@@ -40,7 +41,8 @@ function nav(){
 			</div>
 			<div class="collapse navbar-collapse" id="custom-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.php" class="section-scroll">Home</a></li>
+					<li><a href="index.php" class="section-scroll"><i class="fa fa-home fa-2x"></i>
+</a></li>
 					<li><a href="#" class="section-scroll">About</a></li>
 					<li><a href="#" class="section-scroll">Features</a></li>
 					<li><a href="order.php" class="section-scroll">Order</a></li>	

@@ -19,7 +19,7 @@ include 'include/config.php';
 	</header>
 	<body>
 	
-		<div class="container marketing ">
+		<div class="container-fluid marketing ">
 			<div class="bil"></div>
 
 
@@ -29,7 +29,7 @@ include 'include/config.php';
 				    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 				    <div class="col-sm-10">
 				   		<div class="input-group">
-						    <span class="input-group-addon">@</span>
+						    <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
 						    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
 						  </div>
 				    </div>
@@ -38,7 +38,7 @@ include 'include/config.php';
 				    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 				    <div class="col-sm-10">
 				    	<div class="input-group">
-						   	<span class="input-group-addon">* </span>
+						   	<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
 				      		<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
 				  		</div>
 				    </div>

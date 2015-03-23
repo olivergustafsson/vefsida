@@ -4,12 +4,14 @@
 html
 {
 	overflow: auto;
+	max-width: 100%;
 }
 
 body {
 	padding: 0;
 	margin: 0;
 	overflow: hidden;
+
 }
 
 
@@ -46,11 +48,19 @@ h1{
 	width: 100%;
 	height: 30em;
 	background: url(http://i.imgur.com/Kq1k4zB.jpg) no-repeat center center fixed; 
-	-webkit-background-size: 100% 100%;
-	   -moz-background-size: 100% 100%;
-	     -o-background-size: 100% 100%;
-	        background-size: 100% 100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+		    background-size: cover;
 }
+
+.hringur{
+	background: #fff;
+	width: 150px;
+	height: 150px;
+	border-radius: 90px;
+}
+
 
 .portofilo{
 	height: 30em;
