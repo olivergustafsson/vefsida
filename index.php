@@ -64,7 +64,8 @@ include 'include/config.php';
 	        </div><!-- /.col-lg-4 -->
 	      </div><!-- /.row -->
 
-	        <div class="bil"></div>
+	        <!--  <div class="bil"></div> -->
+	        <hr class="featurette-divider">
 
 		<div class="row">
     <div class="col-md-6 clearfix mb40">
