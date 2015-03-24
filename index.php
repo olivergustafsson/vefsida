@@ -27,7 +27,7 @@ include 'include/config.php';
 	
       <!-- 3 Columns -->
     	
-	      <div class="row center">
+	      <div class="3columns row center">
 	        <div class="col-lg-4">
 	          <div class="hringur center"><i class="fa fa-car fa-5x"></i></div>
 	          <h2>Great Selection</h2>
@@ -64,12 +64,11 @@ include 'include/config.php';
 	        </div><!-- /.col-lg-4 -->
 	      </div><!-- /.row -->
 
-	        
+	        <!--  <div class="bil"></div> -->
 	        <hr class="featurette-divider">
-			<div class="bil"></div>
-			
+
 		<div class="row">
-    <div class="col-md-6 clearfix mb40">
+    <div class="col-md-6">
         <div class="col-xs-3 large-icon text-center red"><i class="fa fa-phone fa-5x"></i></div>
         <div class="col-xs-9 call">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -81,7 +80,7 @@ include 'include/config.php';
             <p class="red">8224166</p>
         </div>
     </div>
-    <div class="col-md-6 clearfix">
+    <div class="col-md-6">
         <div class="col-xs-3 large-icon text-center"><i class="fa fa-users fa-5x"></i></div>
         <div class="col-xs-9 users">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
