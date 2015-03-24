@@ -64,9 +64,10 @@ include 'include/config.php';
 	        </div><!-- /.col-lg-4 -->
 	      </div><!-- /.row -->
 
-	        <!--  <div class="bil"></div> -->
+	        
 	        <hr class="featurette-divider">
-
+			<div class="bil"></div>
+			
 		<div class="row">
     <div class="col-md-6 clearfix mb40">
         <div class="col-xs-3 large-icon text-center red"><i class="fa fa-phone fa-5x"></i></div>
